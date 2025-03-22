@@ -1,16 +1,20 @@
 <script setup>
+import Container from './components/Container.vue';
+import Footer from './components/Footer.vue';
+import Navbar from './components/navbar.vue';
 
-import navbar from './components/navbar.vue';
+
 </script>
 
 <template>
-  <head>
-    <navbar/>
-  </head>
- 
+  <Navbar/>
+  <Container/>
 
-
+  <!-- <Footer/> -->
 </template>
+
+
+
 
 <style scoped>
 
